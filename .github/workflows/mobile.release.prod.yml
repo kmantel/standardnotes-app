@@ -51,6 +51,7 @@ jobs:
           subdirectory: 'packages/mobile'
 
       - name: Generate Release Notes
+        if: false
         uses: ./actions/release-notes
         with:
           package: mobile
@@ -58,6 +59,7 @@ jobs:
         continue-on-error: true
 
       - name: Release
+        if: false
         uses: softprops/action-gh-release@v1
         with:
           token: ${{ secrets.CI_PAT_TOKEN }}
@@ -71,6 +73,7 @@ jobs:
             packages/mobile/android/app/build/outputs/apk/prod/release/app-prod-release.apk
 
   ios:
+    if: false
     defaults:
       run:
         working-directory: packages/mobile

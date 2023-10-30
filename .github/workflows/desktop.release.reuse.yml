@@ -397,7 +397,12 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          pattern: dist-*
+          name: standardnotes-exe-${{ env.APP_VERSION }}
+          path: packages/desktop/dist
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: standardnotes-deb-${{ env.APP_VERSION }}
           path: packages/desktop/dist
           merge-multiple: true
 

@@ -25,31 +25,6 @@
       .editor {
         overflow: hidden;
       }
-
-      .note-view-linking-container,
-      #toggle-linking-container {
-        display: none;
-      }
-
-      #editor-title-bar:hover,
-      #editor-title-bar:has(:focus) {
-        .note-view-linking-container,
-        #toggle-linking-container {
-          display: flex;
-        }
-
-        .note-view-options-buttons,
-        .note-status-tooltip-container,
-        #conflict-resolution-button {
-          opacity: 1;
-        }
-      }
-
-      .note-view-options-buttons,
-      .note-status-tooltip-container,
-      #conflict-resolution-button {
-        opacity: 0;
-      }
     }
 
     #editor-menu-bar {

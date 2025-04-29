@@ -25,6 +25,7 @@ export function themes(): ThemeFeatureDescription[] {
     identifier: NativeFeatureIdentifier.TYPES.FocusWarmTheme,
     permission_name: PermissionName.FocusWarmTheme,
     isDark: true,
+    index_path: 'dist/dist.css',
     dock_icon: {
       type: 'circle',
       background_color: '#cc58a0',
@@ -39,6 +40,7 @@ export function themes(): ThemeFeatureDescription[] {
     identifier: NativeFeatureIdentifier.TYPES.FocusWarmTheme,
     permission_name: PermissionName.FocusWarmTheme,
     isDark: true,
+    index_path: 'dist/dist.css',
     dock_icon: {
       type: 'circle',
       background_color: '#cc58a0',

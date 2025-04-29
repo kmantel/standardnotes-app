@@ -1,0 +1,8 @@
+[submodule "packages/web/src/components/assets/org.ten.sn-theme-focus-warm"]
+	path = packages/web/src/components/assets/org.ten.sn-theme-focus-warm
+	url = https://github.com/kmantel/focus-theme.git
+	branch = main
+[submodule "packages/web/src/components/assets/org.ten.sn-theme-focus-warm-oled"]
+	path = packages/web/src/components/assets/org.ten.sn-theme-focus-warm-oled
+	url = https://github.com/kmantel/focus-theme.git
+	branch = oled

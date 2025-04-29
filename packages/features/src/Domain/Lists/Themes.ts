@@ -19,6 +19,34 @@ export function themes(): ThemeFeatureDescription[] {
     availableInRoles: [RoleName.NAMES.PlusUser, RoleName.NAMES.ProUser],
   })
 
+  const focusWarm: ThemeFeatureDescription = FillThemeComponentDefaults({
+    availableInRoles: [RoleName.NAMES.CoreUser, RoleName.NAMES.PlusUser, RoleName.NAMES.ProUser],
+    name: 'Focus Warm',
+    identifier: NativeFeatureIdentifier.TYPES.FocusWarmTheme,
+    permission_name: PermissionName.FocusWarmTheme,
+    isDark: true,
+    dock_icon: {
+      type: 'circle',
+      background_color: '#cc58a0',
+      foreground_color: '#cc58a0',
+      border_color: '#cc58a0',
+    },
+  })
+
+  const focusWarmOLED: ThemeFeatureDescription = FillThemeComponentDefaults({
+    availableInRoles: [RoleName.NAMES.CoreUser, RoleName.NAMES.PlusUser, RoleName.NAMES.ProUser],
+    name: 'Focus Warm OLED',
+    identifier: NativeFeatureIdentifier.TYPES.FocusWarmTheme,
+    permission_name: PermissionName.FocusWarmTheme,
+    isDark: true,
+    dock_icon: {
+      type: 'circle',
+      background_color: '#cc58a0',
+      foreground_color: '#cc58a0',
+      border_color: '#cc58a0',
+    },
+  })
+
   const futura: ThemeFeatureDescription = FillThemeComponentDefaults({
     availableInRoles: [RoleName.NAMES.PlusUser, RoleName.NAMES.ProUser],
     name: 'Futura',
@@ -110,5 +138,5 @@ export function themes(): ThemeFeatureDescription[] {
     },
   })
 
-  return [midnight, futura, solarizedDark, autobiography, dark, proton, titanium, dynamic]
+  return [midnight, focusWarm, focusWarmOLED, futura, solarizedDark, autobiography, dark, proton, titanium, dynamic]
 }

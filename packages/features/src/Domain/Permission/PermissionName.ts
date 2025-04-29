@@ -11,6 +11,8 @@ export enum PermissionName {
   FilesLowStorageTier = 'server:files-low-storage-tier',
   FocusedTheme = 'theme:focused',
   FocusMode = 'app:focus-mode',
+  FocusWarmTheme = 'theme:focus-warm',
+  FocusWarmOLEDTheme = 'theme:focus-warm-oled',
   FuturaTheme = 'theme:futura',
   ListedCustomDomain = 'listed:custom-domain',
   MarkdownBasicEditor = 'editor:markdown-basic',

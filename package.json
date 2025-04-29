@@ -49,7 +49,9 @@
     "@lexical/list@0.14.5": "patch:@lexical/list@npm:0.14.5#.yarn/patches/@lexical-list-npm-0.14.5-348640e630.patch"
   },
   "dependencies": {
-    "@standardnotes/snjs": "workspace:*"
+    "@standardnotes/snjs": "workspace:*",
+    "@ten/org.ten.sn-theme-focus-warm": "https://github.com/kmantel/focus-theme.git#main",
+    "@ten/org.ten.sn-theme-focus-warm-oled": "https://github.com/kmantel/focus-theme.git#oled"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",

@@ -6750,6 +6750,8 @@ __metadata:
     "@lerna-lite/run": ^1.12.0
     "@standardnotes/config": ^2.4.3
     "@standardnotes/snjs": "workspace:*"
+    "@ten/org.ten.sn-theme-focus-warm": "https://github.com/kmantel/focus-theme.git#main"
+    "@ten/org.ten.sn-theme-focus-warm-oled": "https://github.com/kmantel/focus-theme.git#oled"
     "@typescript-eslint/eslint-plugin": ^6.2.0
     "@typescript-eslint/parser": ^6.2.0
     changelog-parser: ^2.8.1
@@ -8145,6 +8147,20 @@ __metadata:
   dependencies:
     defer-to-connect: ^2.0.1
   checksum: fc9cb993e808806692e4a3337c90ece0ec00c89f4b67e3652a356b89730da98bc824273a6d67ca84d5f33cd85f317dcd5ce39d8cc0a2f060145a608a7cb8ce92
+  languageName: node
+  linkType: hard
+
+"@ten/org.ten.sn-theme-focus-warm-oled@https://github.com/kmantel/focus-theme.git#oled":
+  version: 1.2.9
+  resolution: "@ten/org.ten.sn-theme-focus-warm-oled@https://github.com/kmantel/focus-theme.git#commit=21f0b00944a325b9003144d1b43865aeb5aefdd3"
+  checksum: c1d2ff21202f2fe2c29fbd312875cd77440d916b905738b90b39a3176fb53cd1223dfbcf01ae24019470e24e622db8d3517a765b4ce19aa928912cbc83e9d39b
+  languageName: node
+  linkType: hard
+
+"@ten/org.ten.sn-theme-focus-warm@https://github.com/kmantel/focus-theme.git#main":
+  version: 1.2.9
+  resolution: "@ten/org.ten.sn-theme-focus-warm@https://github.com/kmantel/focus-theme.git#commit=caff47ac0e8d7518562d3597f85570fd7a6d77d2"
+  checksum: 7493b6ff44437e7d494235f9c25a5b2c86be4e219f07974e2876ca09af908312e05666807374f43cf55b6c9cab5d3f9083e0017a00df700a233f7fbcab401e44
   languageName: node
   linkType: hard
 

@@ -24,6 +24,8 @@ export class NativeFeatureIdentifier extends ValueObject<NativeFeatureIdentifier
     AutobiographyTheme: 'org.standardnotes.theme-autobiography',
     DynamicTheme: 'org.standardnotes.theme-dynamic',
     DarkTheme: 'org.standardnotes.theme-focus',
+    FocusWarmTheme: 'org.ten.sn-theme-focus-warm',
+    FocusWarmOLEDTheme: 'org.ten.sn-theme-focus-warm-oled',
     FuturaTheme: 'org.standardnotes.theme-futura',
     MidnightTheme: 'org.standardnotes.theme-midnight',
     SolarizedDarkTheme: 'org.standardnotes.theme-solarized-dark',

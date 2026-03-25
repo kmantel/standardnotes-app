@@ -45,8 +45,8 @@ export const Toast = forwardRef(({ toast, index }: Props, ref: ForwardedRef<HTML
   const hasProgress = toast.type === ToastType.Progress && toast.progress !== undefined && toast.progress > -1
 
   const shouldReduceMotion = prefersReducedMotion()
-  const enterAnimation = shouldReduceMotion ? 'fade-in-animation' : 'slide-in-right-animation'
-  const exitAnimation = shouldReduceMotion ? 'fade-out-animation' : 'slide-out-left-animation'
+  const enterAnimation = shouldReduceMotion ? '' : 'slide-in-right-animation'
+  const exitAnimation = shouldReduceMotion ? '' : 'slide-out-left-animation'
   const currentAnimation = toast.dismissed ? exitAnimation : enterAnimation
 
   useEffect(() => {

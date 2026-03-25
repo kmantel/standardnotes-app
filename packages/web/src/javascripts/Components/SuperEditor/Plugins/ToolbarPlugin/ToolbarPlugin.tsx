@@ -160,7 +160,7 @@ const ToolbarButton = forwardRef(
         >
           <div
             className={classNames(
-              'flex items-center justify-center rounded p-2 transition-colors duration-75',
+              'flex items-center justify-center rounded p-2',
               active && 'bg-info text-info-contrast',
             )}
           >

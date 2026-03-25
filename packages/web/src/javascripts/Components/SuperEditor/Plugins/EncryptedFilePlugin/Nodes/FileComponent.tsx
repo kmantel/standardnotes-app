@@ -145,7 +145,7 @@ function FileComponent({
           </div>
           <div className="w-full max-w-[50%] overflow-hidden rounded bg-contrast">
             <div
-              className="h-2 rounded rounded-tl-none bg-info transition-[width] duration-100"
+              className="h-2 rounded rounded-tl-none bg-info"
               role="progressbar"
               style={{
                 width: `${progress}%`,

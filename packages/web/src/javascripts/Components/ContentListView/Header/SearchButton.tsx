@@ -27,7 +27,7 @@ const SearchButton = ({ itemListController }: Props) => {
         className={{
           container: classNames(
             isSearchBarVisible ? 'scale-x-1 opacity-100' : 'scale-x-0 opacity-0',
-            'origin-right px-1 transition-all duration-200 ease-in-out',
+            'origin-right px-1 ',
           ),
           input: 'text-base placeholder:text-passive-0 lg:text-sm',
         }}
@@ -45,7 +45,7 @@ const SearchButton = ({ itemListController }: Props) => {
       />
       <RoundIconButton
         ref={searchButtonRef}
-        className={isSearchBarVisible ? 'rotate-90 transition-transform duration-200 ease-in-out' : ''}
+        className={isSearchBarVisible ? 'rotate-90 ' : ''}
         onClick={() => {
           setIsSearchBarVisible(!isSearchBarVisible)
         }}

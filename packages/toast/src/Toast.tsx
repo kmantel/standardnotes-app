@@ -117,7 +117,7 @@ export const Toast = forwardRef(({ toast, index }: Props, ref: ForwardedRef<HTML
       {hasProgress && (
         <div className="bg-default w-full overflow-hidden rounded rounded-tl-none rounded-tr-none">
           <div
-            className="bg-info h-2 rounded rounded-tl-none transition-[width] duration-100"
+            className="bg-info h-2 rounded rounded-tl-none transition-[width]"
             role="progressbar"
             style={{
               width: `${toast.progress}%`,

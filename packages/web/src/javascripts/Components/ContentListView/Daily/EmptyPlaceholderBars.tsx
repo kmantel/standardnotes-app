@@ -51,7 +51,7 @@ export const EmptyPlaceholderBars: FunctionComponent<Props> = ({ rows }) => {
             style={{ width: `${width}%` }}
             key={index}
             className={
-              'transition-slowest ease my-4 h-7 bg-passive-4-opacity-variant pb-3 transition-width duration-1000'
+              'my-4 h-7 bg-passive-4-opacity-variant pb-3'
             }
           ></div>
         )

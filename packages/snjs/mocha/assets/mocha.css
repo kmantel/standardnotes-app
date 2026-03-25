@@ -182,9 +182,9 @@ body {
   font-size: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  -webkit-transition: opacity 200ms;
-  -moz-transition: opacity 200ms;
-  transition: opacity 200ms;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
   opacity: 0.3;
   color: #888;
 }

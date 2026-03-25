@@ -6,7 +6,7 @@
     }
 
     .app {
-      transition: grid-template-columns 0.25s;
+      transition: none;
     }
 
     .mac-desktop #editor-column:before {
@@ -38,7 +38,7 @@
     #footer-bar .left,
     #footer-bar .right {
       opacity: 0.08;
-      transition: opacity 0.25s;
+      transition: none;
     }
 
     #footer-bar *:hover {
@@ -48,8 +48,8 @@
     #navigation,
     #items-column {
       will-change: opacity;
-      animation: fade-out 0.5s forwards;
-      transition: width 0.5s;
+      animation: none;
+      transition: none;
       transition-delay: 0s;
       width: 0px !important;
       flex: none !important;
@@ -70,9 +70,9 @@
 .disable-focus-mode {
   #navigation,
   #items-column {
-    transition: width 0.5s;
+    transition: none;
     will-change: opacity;
-    animation: fade-in 0.5s forwards;
+    animation: none;
   }
 }
 

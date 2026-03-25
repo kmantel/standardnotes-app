@@ -23,7 +23,7 @@
 }
 
 .slide-up-animation {
-  animation: slide-up 0.2s ease;
+  animation: none;
 }
 
 @keyframes slide-down {
@@ -38,11 +38,11 @@
 }
 
 .slide-down-animation {
-  animation: slide-down 0.2s ease;
+  animation: none;
 }
 
 .animate-fade-from-top {
-  animation: fade-from-top 0.2s ease-out;
+  animation: none;
 }
 
 @keyframes fade-from-top {

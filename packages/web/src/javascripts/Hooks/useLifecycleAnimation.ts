@@ -57,7 +57,7 @@ export const useLifecycleAnimation = (
     const exit = exitRef.current
     const exitCallback = exitCallbackRef.current
 
-    if (prefersReducedMotion && !enter?.reducedMotionKeyframes && !exit?.reducedMotionKeyframes) {
+    if (prefersReducedMotion) {
       setIsMounted(open)
       return
     }

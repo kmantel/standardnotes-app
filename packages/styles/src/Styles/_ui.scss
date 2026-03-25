@@ -652,7 +652,7 @@ input[type='radio'] {
 .sk-spinner {
   border: 1px solid var(--sn-stylekit-neutral-color);
   border-radius: 50%;
-  animation: rotate 0.8s infinite linear;
+  animation: none;
   border-right-color: transparent;
 
   &.small {
@@ -728,7 +728,7 @@ svg.sk-circular-progress {
     stroke: var(--sn-stylekit-info-color);
     stroke-linecap: round;
     stroke-width: $stroke-width;
-    transition: all 0.5s;
+    transition: none;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
 

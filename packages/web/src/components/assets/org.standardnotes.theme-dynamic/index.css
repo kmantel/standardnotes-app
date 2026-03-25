@@ -6,24 +6,24 @@
   #navigation {
     flex: none !important;
     width: 49px !important;
-    transition: width 0.25s;
+    transition: none;
   }
 
   #navigation:hover {
     flex: initial;
     width: 200px !important;
-    transition: width 0.25s;
+    transition: none;
   }
 
   #items-column {
     flex: none !important;
     width: 270px !important;
-    transition: width 0.25s;
+    transition: none;
   }
 
   #items-column:hover {
     flex: initial;
     width: 380px !important;
-    transition: width 0.25s;
+    transition: none;
   }
 }

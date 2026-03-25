@@ -1,5 +1,5 @@
 .duration-150 {
-  transition-duration: 150ms;
+  transition-duration: 0ms;
 }
 
 .ease-out {
@@ -12,4 +12,18 @@
 
 .transition-transform {
   transition-property: transform;
+}
+
+.transition,
+.transition-\[transform\2c opacity\],
+.transition-\[width\],
+.transition-all,
+.transition-colors,
+.transition-opacity,
+.transition-transform,
+.transition-width
+{
+  transition-duration: 0ms !important;
+  transition-property: none !important;
+  transition-timing-function: none !important;
 }

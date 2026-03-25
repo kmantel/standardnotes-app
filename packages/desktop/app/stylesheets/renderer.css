@@ -6,7 +6,7 @@
 /* To offset frameless window nav buttons on Mac */
 .mac-desktop #editor-column,
 .mac-desktop #items-column {
-  transition: 0.15s padding ease;
+  transition: none;
 }
 
 @media screen and (max-width: 768px) {

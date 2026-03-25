@@ -17,7 +17,7 @@
 }
 
 .accordion-contents-container {
-  transition: all 0.23s ease-out;
+  transition: none;
   transform-origin: top;
   transform: scaleY(0);
   height: 0;
@@ -173,7 +173,7 @@ svg.sk-circular-progress {
     stroke: var(--sn-stylekit-info-color);
     stroke-linecap: round;
     stroke-width: $stroke-width;
-    transition: all 0.5s;
+    transition: none;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
 

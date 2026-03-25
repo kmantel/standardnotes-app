@@ -87,7 +87,7 @@ const ModalOverlay = forwardRef(
           <div
             className={classNames(
               'pointer-events-auto absolute z-0 h-full w-full bg-passive-5 opacity-0',
-              'md:opacity-50 md:transition-opacity md:duration-75 [&[data-enter]]:md:opacity-75',
+              'md:opacity-50 md:md:[&[data-enter]]:md:opacity-75',
               backdropClassName,
             )}
             onClick={close}

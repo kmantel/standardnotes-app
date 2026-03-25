@@ -15,13 +15,14 @@
 }
 
 .transition,
-.transition-\[transform\2c opacity\],
+.transition-\[transform,opacity\],
 .transition-\[width\],
 .transition-all,
 .transition-colors,
 .transition-opacity,
 .transition-transform,
-.transition-width
+.transition-width,
+.motion-reduce:transition-opacity
 {
   transition-duration: 0ms !important;
   transition-property: none !important;

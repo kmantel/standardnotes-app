@@ -108,7 +108,7 @@ const EditorWidthSelectionModal = ({
       <div className="flex min-h-0 flex-grow flex-col overflow-hidden rounded bg-passive-5 p-4 pb-0">
         <div
           className={classNames(
-            'grid flex-grow grid-cols-[0fr_1fr_0fr] gap-3 rounded rounded-b-none bg-default px-2 pt-4 shadow-[0_1px_4px_rgba(0,0,0,0.12),0_2px_8px_rgba(0,0,0,0.04)] transition-all duration-200 md:px-4',
+            'grid flex-grow grid-cols-[0fr_1fr_0fr] gap-3 rounded rounded-b-none bg-default px-2 pt-4 shadow-[0_1px_4px_rgba(0,0,0,0.12),0_2px_8px_rgba(0,0,0,0.04)] md:px-4',
             value === EditorLineWidth.Narrow && 'md:grid-cols-[1fr_60%_1fr]',
             value === EditorLineWidth.Wide && 'md:grid-cols-[1fr_70%_1fr]',
             value === EditorLineWidth.Dynamic && 'md:grid-cols-[1fr_80%_1fr]',

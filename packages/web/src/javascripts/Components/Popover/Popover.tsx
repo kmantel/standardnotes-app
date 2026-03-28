@@ -39,7 +39,6 @@ const PositionedPopoverContentWithAnimation = (
       keyframes: [
         {
           opacity: 0,
-          transform: 'scale(0.95)',
         },
       ],
       reducedMotionKeyframes: [
@@ -48,7 +47,7 @@ const PositionedPopoverContentWithAnimation = (
         },
       ],
       options: {
-        duration: 75,
+        duration: 0,
       },
     },
   })

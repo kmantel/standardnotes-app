@@ -149,10 +149,10 @@ const PositionedPopoverContent = ({
       >
         <div
           className={classNames(
-            'overflow-y-auto rounded border border-[--popover-border-color] bg-default shadow-main [backdrop-filter:var(--popover-backdrop-filter)] md:bg-[--popover-background-color]',
+            'overflow-y-auto rounded border border-[--popover-border-color] bg-default shadow-main [backdrop-filter:var(--popover-backdrop-filter)] md:bg-[--popover-background-color] scale-100',
             !isDesktopScreen && !disableMobileFullscreenTakeover ? 'pb-safe-bottom pt-safe-top' : '',
             '',
-            styles ? 'scale-100 opacity-100' : 'scale-95 opacity-0',
+            styles ? 'opacity-100' : 'opacity-0',
             className,
           )}
           ref={mergeRefs([correctInitialScrollForOverflowedContent, setAnimationElement])}

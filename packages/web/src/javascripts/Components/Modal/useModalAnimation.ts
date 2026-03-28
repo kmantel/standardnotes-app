@@ -7,10 +7,8 @@ const Animations = {
     enter: {
       keyframes: [
         {
-          transform: 'translateY(100%)',
         },
         {
-          transform: 'translateY(0)',
         },
       ],
       transformOrigin: 'bottom',
@@ -18,7 +16,6 @@ const Animations = {
     exit: {
       keyframes: [
         {
-          transform: 'translateY(100%)',
         },
       ],
       transformOrigin: 'bottom',
@@ -28,10 +25,8 @@ const Animations = {
     enter: {
       keyframes: [
         {
-          transform: 'translateX(100%)',
         },
         {
-          transform: 'translateX(0)',
         },
       ],
       transformOrigin: 'right',
@@ -39,10 +34,8 @@ const Animations = {
     exit: {
       keyframes: [
         {
-          transform: 'translateX(0)',
         },
         {
-          transform: 'translateX(100%)',
         },
       ],
       transformOrigin: 'right',
@@ -52,7 +45,7 @@ const Animations = {
     enter: {
       keyframes: [
         {
-          transform: 'scale(0.95)',
+          transform: 'scale(1)',
           opacity: 0,
         },
         {
@@ -69,7 +62,7 @@ const Animations = {
           opacity: 1,
         },
         {
-          transform: 'scale(0.95)',
+          transform: 'scale(1)',
           opacity: 0,
         },
       ],
@@ -80,12 +73,12 @@ const Animations = {
 
 export const MobileModalAnimationOptions = {
   easing: IosModalAnimationEasing,
-  duration: 250,
+  duration: 0,
   fill: 'forwards',
 } as const
 
 const NonMobileOptions = {
-  duration: 75,
+  duration: 0,
 }
 
 export const useModalAnimation = (

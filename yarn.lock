@@ -3763,27 +3763,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@electron/rebuild@npm:3.6.1":
-  version: 3.6.1
-  resolution: "@electron/rebuild@npm:3.6.1"
+"@electron/rebuild@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@electron/rebuild@npm:4.2.0"
   dependencies:
     "@malept/cross-spawn-promise": ^2.0.0
-    chalk: ^4.0.0
     debug: ^4.1.1
-    detect-libc: ^2.0.1
-    fs-extra: ^10.0.0
-    got: ^11.7.0
-    node-abi: ^3.45.0
-    node-api-version: ^0.2.0
-    node-gyp: ^9.0.0
-    ora: ^5.1.0
+    node-abi: ^4.2.0
+    node-api-version: ^0.2.1
+    node-gyp: ^12.2.0
     read-binary-file-arch: ^1.0.6
-    semver: ^7.3.5
-    tar: ^6.0.5
-    yargs: ^17.0.1
+  dependenciesMeta:
+    electron:
+      built: true
   bin:
     electron-rebuild: lib/cli.js
-  checksum: 90766c7341997a54319bc215014de829d3f3ab1976fd80c4fa9846f5672bdf2b6c7b0f87fe5edee290caf6c7e9a60774607b46b97dea20ac65c5567af7f694ae
+  checksum: e717d67d1b5b3770bf5c8fbb5e4d4f909c33f1262625f52c7061930dee0ca817f59d5a3f625c8e55299639526a97b4fe86960bdc848ab10f7e7d385c646ed3d6
   languageName: node
   linkType: hard
 
@@ -7880,7 +7875,7 @@ __metadata:
     "@babel/core": "*"
     "@babel/preset-env": "*"
     "@electron/notarize": ^3.0.0
-    "@electron/rebuild": 3.6.1
+    "@electron/rebuild": ^4.2.0
     "@electron/remote": ^2.1.2
     "@standardnotes/domain-core": ^1.40.0
     "@standardnotes/electron-clear-data": 1.1.1
@@ -10482,6 +10477,13 @@ __metadata:
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
   checksum: 0e994ad2aa6575f94670d8a2149afe94465de9cedaaaac364e7fb43a40c3691c980ff74899f682f4ca58fa96b4cbd7421a015d3a6defe43a442117d7821a2f36
+  languageName: node
+  linkType: hard
+
+"abbrev@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "abbrev@npm:4.0.0"
+  checksum: d0344b63d28e763f259b4898c41bdc92c08e9d06d0da5617d0bbe4d78244e46daea88c510a2f9472af59b031d9060ec1a999653144e793fd029a59dae2f56dc8
   languageName: node
   linkType: hard
 
@@ -14328,7 +14330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-libc@npm:^2.0.0, detect-libc@npm:^2.0.1":
+"detect-libc@npm:^2.0.0":
   version: 2.0.2
   resolution: "detect-libc@npm:2.0.2"
   checksum: 2b2cd3649b83d576f4be7cc37eb3b1815c79969c8b1a03a40a4d55d83bc74d010753485753448eacb98784abf22f7dbd3911fd3b60e29fda28fed2d1a997944d
@@ -17204,7 +17206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:^11.7.0, got@npm:^11.8.5":
+"got@npm:^11.8.5":
   version: 11.8.6
   resolution: "got@npm:11.8.6"
   dependencies:
@@ -21998,12 +22000,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-api-version@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "node-api-version@npm:0.2.0"
+"node-api-version@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "node-api-version@npm:0.2.1"
   dependencies:
     semver: ^7.3.5
-  checksum: 26146d0d4a6a252009e1926e2f3668a7ab1710d6ee59d615b0099ccdc0c6588a48b5f8668349d4eb313be0d904a67b106b7cf2d2a1a31609ff671394baaf6ce0
+  checksum: 78a3056873a8a15c4b0f3ed1f64d294fe4e0ba4a4d08b5f9cfa06a8586ff9bc7c942ef17648171b000d7343d216b7e07dc4787d6ba98307f0a2de9ef13722f3a
   languageName: node
   linkType: hard
 
@@ -22119,6 +22121,26 @@ __metadata:
   bin:
     node-gyp: bin/node-gyp.js
   checksum: 341710b5da39d3660e6a886b37e210d33f8282047405c2e62c277bcc744c7552c5b8b972ebc3a7d5c2813794e60cc48c3ebd142c46d6e0321db4db6c92dd0355
+  languageName: node
+  linkType: hard
+
+"node-gyp@npm:^12.2.0":
+  version: 12.4.0
+  resolution: "node-gyp@npm:12.4.0"
+  dependencies:
+    env-paths: ^2.2.0
+    exponential-backoff: ^3.1.1
+    graceful-fs: ^4.2.6
+    nopt: ^9.0.0
+    proc-log: ^6.0.0
+    semver: ^7.3.5
+    tar: ^7.5.4
+    tinyglobby: ^0.2.12
+    undici: ^6.25.0
+    which: ^6.0.0
+  bin:
+    node-gyp: bin/node-gyp.js
+  checksum: a696e8bf74e83126569b2b7a4deec1065e24dc8c6af84fe77e4211712dddf5b3052c1c98b01013fefda73f0191d1ab87bc2171c832edd34a0fcc6d111dc6f176
   languageName: node
   linkType: hard
 
@@ -22251,6 +22273,17 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: a9c0f57fb8cb9cc82ae47192ca2b7ef00e199b9480eed202482c962d61b59a7fbe7541920b2a5839a97b42ee39e288c0aed770e38057a608d7f579389dfde410
+  languageName: node
+  linkType: hard
+
+"nopt@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "nopt@npm:9.0.0"
+  dependencies:
+    abbrev: ^4.0.0
+  bin:
+    nopt: bin/nopt.js
+  checksum: 7a5d9ab0629eaec1944a95438cc4efa6418ed2834aa8eb21a1bea579a7d8ac3e30120131855376a96ef59ab0e23ad8e0bc94d3349770a95e5cb7119339f7c7fb
   languageName: node
   linkType: hard
 
@@ -22791,7 +22824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ora@npm:^5.1.0, ora@npm:^5.4.1":
+"ora@npm:^5.4.1":
   version: 5.4.1
   resolution: "ora@npm:5.4.1"
   dependencies:
@@ -23943,6 +23976,13 @@ __metadata:
   version: 3.0.0
   resolution: "proc-log@npm:3.0.0"
   checksum: 02b64e1b3919e63df06f836b98d3af002b5cd92655cab18b5746e37374bfb73e03b84fe305454614b34c25b485cc687a9eebdccf0242cda8fda2475dd2c97e02
+  languageName: node
+  linkType: hard
+
+"proc-log@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "proc-log@npm:6.1.0"
+  checksum: ac450ff8244e95b0c9935b52d629fef92ae69b7e39aea19972a8234259614d644402dd62ce9cb094f4a637d8a4514cba90c1456ad785a40ad5b64d502875a817
   languageName: node
   linkType: hard
 
@@ -27086,7 +27126,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^6.0.5, tar@npm:^6.1.12":
+"tar@npm:^6.1.12":
   version: 6.2.0
   resolution: "tar@npm:6.2.0"
   dependencies:
@@ -28071,6 +28111,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici@npm:^6.25.0":
+  version: 6.28.0
+  resolution: "undici@npm:6.28.0"
+  checksum: 71b82d533189750682078341b9f09f4db4d398d470f7b5032c546c60b1dfb331ff19a50ac02d4bce487c5e6c1d9b101c0afa29da302aab3b3edf94a35d4ed11f
+  languageName: node
+  linkType: hard
+
 "undici@npm:^8.4.1":
   version: 8.10.0
   resolution: "undici@npm:8.10.0"
@@ -28950,6 +28997,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"which@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "which@npm:6.0.1"
+  dependencies:
+    isexe: ^4.0.0
+  bin:
+    node-which: bin/which.js
+  checksum: dbea77c7d3058bf6c78bf9659d2dce4d2b57d39a15b826b2af6ac2e5a219b99dc8a831b79fdbc453c0598adb4f3f84cf9c2491fd52beb9f5d2dececcad117f68
+  languageName: node
+  linkType: hard
+
 "which@npm:^7.0.0":
   version: 7.0.0
   resolution: "which@npm:7.0.0"
@@ -29411,7 +29469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.0.0, yargs@npm:^17.0.1, yargs@npm:^17.3.1, yargs@npm:^17.6.2, yargs@npm:^17.7.1, yargs@npm:^17.7.2":
+"yargs@npm:^17.0.0, yargs@npm:^17.3.1, yargs@npm:^17.6.2, yargs@npm:^17.7.1, yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:

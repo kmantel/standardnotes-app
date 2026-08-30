@@ -47,7 +47,8 @@
     "node-abi": "^4.2.0"
   },
   "dependencies": {
-    "@standardnotes/snjs": "workspace:*"
+    "@standardnotes/snjs": "workspace:*",
+    "node-gyp": "^12"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
